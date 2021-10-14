@@ -140,9 +140,9 @@
       this[globalName] = mainExports;
     }
   }
-})({"6Mnif":[function(require,module,exports) {
+})({"4mwYS":[function(require,module,exports) {
 var HMR_HOST = null;
-var HMR_PORT = 61358;
+var HMR_PORT = 1234;
 var HMR_SECURE = false;
 var HMR_ENV_HASH = "d751713988987e9331980363e24189ce";
 module.bundle.HMR_BUNDLE_ID = "9c44180a18ad66eda0f30d699626f0bb";
@@ -605,6 +605,6 @@ function updateNavigation() {
   });
 }
 
-},{}]},["6Mnif","SXDIM"], "SXDIM", "parcelRequireca6b")
+},{}]},["4mwYS","SXDIM"], "SXDIM", "parcelRequireca6b")
 
 //# sourceMappingURL=index.9626f0bb.js.map

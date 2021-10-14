@@ -7,18 +7,18 @@
 $color-1: #e1ebfe; // light Blue
 $color-2: #013d1f; // Dark green
 $color-3: #000000; // black
-$color-4: gray; // white
-$color-5: #ffffff;
-$color-6: red;
- // white
+$color-4: #808080; // gray
+$color-5: #ffffff; //white
+$color-6: #ff0000; //red
+
 // additional colors
 
 $success: #013d1f; // green
 $alert: $color-6; // red
 
 // fonts
-$primary-font: 'Century Gothic Bold', sans-serif;
-$secondary-font: 'Sharktooth', display;
+$primary-font: 'Poppins', sans-serif;
+$secondary-font: 'Mogra', display;
 
 /* -------------------------------- 
 
@@ -28,7 +28,7 @@ xBackground
 
 body {
   /* this is the page background */
-  background-color: $color-5;
+  background-color: $color-1;
 }
 
 /* -------------------------------- 
@@ -53,7 +53,7 @@ xNavigation
 -------------------------------- */
 
 header {
-  background-color: $color-2;
+  background-color: $color-1;
 }
 
 .cd-logo {
@@ -68,11 +68,11 @@ header {
 
 .cd-main-nav {
   /* main navigation background color - full screen on small devices */
-  background: $color-2;
+  background: $color-1;
 
   li a {
-    color: $color-5;
-    border-color: lighten($color-2, 5%);
+    color: $color-2;
+    border-color: lighten($color-4, 5%);
   }
 
   @include MQ(M) {
@@ -93,12 +93,12 @@ header {
 
 .cd-nav-trigger span {
   /* hamburger menu */
-  background-color: $color-5;
+  background-color: $color-2;
 
   &::before,
   &::after {
     /* upper and lower lines */
-    background-color: $color-5;
+    background-color: $color-2;
   }
 }
 
@@ -115,10 +115,11 @@ header {
 
 .cd-download {
   /* download button top-right visible on big devices */
-  background-color: lighten($color-2, 10%);
+  background-color: $color-2;
 
   .no-touch &:hover {
-    background-color: lighten($color-2, 15%);
+    background-color: $color-5;
+
   }
 
   span {
@@ -144,7 +145,7 @@ main > h1 {
 
   @include MQ(L) {
     /* title goes into the header on big devices */
-    color: $color-5;
+    color: $color-2;
   }
 }
 
@@ -197,7 +198,7 @@ p {
   color: $color-2;
 
   a {
-    color: $color-1;
+    color: $color-2;
     text-decoration: underline;
   }
 
@@ -219,7 +220,7 @@ xButtons
   border-radius: 0.25em;
   font: {
     size: 1.4rem;
-    family: $secondary-font;
+    family: $primary-font;
   }
   color: $color-3;
   padding: 0.6em 2.2em;
@@ -236,6 +237,7 @@ xButtons
 
   &.btn-success {
     background: $success;
+    color: $color-1;
 
     .no-touch &:hover {
       background: lighten($success, 5%);
@@ -244,6 +246,7 @@ xButtons
 
   &.btn-alert {
     background: $alert;
+    color:$color-1;
 
     .no-touch &:hover {
       background: lighten($alert, 5%);
@@ -251,13 +254,13 @@ xButtons
   }
 
   &.btn-outline {
-    color: $color-5;
+    color: $color-4;
     background: transparent;
-    box-shadow: inset 0 0 0 1px $color-1;
+    box-shadow: inset 0 0 0 1px $color-4;
 
     .no-touch &:hover {
-      /*color: $color-5;
-      background: $color-1;*/
+      color: $color-5;
+      background: $color-2;
       text-decoration: underline;
     }
   }
@@ -269,7 +272,7 @@ xButtons
 
 .cd-buttons .cd-box:nth-of-type(2) span {
   /* CSS class name color */
-  color: $color-1;
+  color: $color-2;
 }
 
 /* -------------------------------- 
@@ -317,7 +320,7 @@ input[type='text'] {
 
   &:focus {
     border-color: $color-1;
-    box-shadow: 0 0 6px rgba($color-1, 0.2);
+    box-shadow: 0 0 6px rgba($color-4, 0.2);
   }
 }
 
