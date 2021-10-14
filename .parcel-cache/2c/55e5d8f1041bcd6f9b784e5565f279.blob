@@ -6,15 +6,15 @@
 
     <link href="https://fonts.googleapis.com/css2?family=Mogra&family=Poppins:wght@700&display=swap" rel="stylesheet" type="text/css">
 
-    <link rel="stylesheet" href="/index.fd58574d.css">
+    <link rel="stylesheet" href="/index.HASH_REF_0d8524a15cd50b7f068fb1cefd58574d.css">
     <!-- Resource style -->
-    <script src="/index.aaafe13f.js"></script>
+    <script src="/index.HASH_REF_d1d6d1f9d6c205aa98cd1216aaafe13f.js"></script>
     <!-- Modernizr -->
     <title>Style Guide | WDD 331 Group 14</title>
   </head>
   <body>
     <header>
-      <div class="cd-logo"><img src="/logo1.816729d3.svg" alt="Logo"></div>
+      <div class="cd-logo"><img src="/logo1.HASH_REF_b5686f58e5f290f9ec11939b816729d3.svg" alt="Logo"></div>
 
       <nav>
         <ul class="cd-main-nav">
@@ -47,7 +47,7 @@
 
         <ul>
           <li class="cd-box">
-            <img src="/logo1.816729d3.svg" alt="Logo version 1">
+            <img src="/logo1.HASH_REF_b5686f58e5f290f9ec11939b816729d3.svg" alt="Logo version 1">
           </li>
           <!--<li class="cd-box">
             <img src="assets/branding/logo-ver-2.jpg" alt="Logo version 2" />
@@ -211,17 +211,17 @@
         <h2>Wireframes</h2>
         <div class="cd-box">
           <figure>
-            <img src="/wireframe-sm.a947136d.jpg" alt="Small screen wireframe">
+            <img src="/wireframe-sm.HASH_REF_ac91db0b48bfc74e4afceba1a947136d.jpg" alt="Small screen wireframe">
             <figcaption>Small screen</figcaption>
           </figure>
           <figure>
-            <img src="/wireframe-lg.48da39ca.jpg" alt="Large screen wireframe">
+            <img src="/wireframe-lg.HASH_REF_01ed2c3781e72551a418c55848da39ca.jpg" alt="Large screen wireframe">
             <figcaption>Large screen</figcaption>
           </figure>
         </div>
       </section>
     </main>
 
-    <script src="/index.9626f0bb.js"></script>
+    <script src="/index.HASH_REF_9c44180a18ad66eda0f30d699626f0bb.js"></script>
   </body>
 </html>
