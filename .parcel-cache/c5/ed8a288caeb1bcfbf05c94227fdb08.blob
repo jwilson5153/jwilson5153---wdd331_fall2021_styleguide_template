@@ -106,19 +106,6 @@ p a {
 xNavigation 
 
 -------------------------------- */
-header {
-  background-color: #e1ebfe;
-}
-.cd-logo {
-  /* logo box style */
-  background-color: #e1ebfe;
-  width: 120px;
-}
-@media only screen and (min-width: 1024px) {
-  .cd-logo {
-    width: 180px;
-  }
-}
 .cd-main-nav {
   /* main navigation background color - full screen on small devices */
   background: #e1ebfe;

@@ -4,19 +4,7 @@ xNavigation
 
 -------------------------------- */
 
-header {
-    background-color: $color-1;
-  }
-  
-  .cd-logo {
-    /* logo box style */
-    background-color: $color-1;
-    width: 120px;
-  
-    @include MQ(M) {
-      width: 180px;
-    }
-  }
+
   
   .cd-main-nav {
     /* main navigation background color - full screen on small devices */
