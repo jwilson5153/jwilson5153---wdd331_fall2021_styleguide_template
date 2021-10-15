@@ -101,6 +101,39 @@ p a {
     line-height: 1.6;
   }
 }
+/*$color-1: #e1ebfe; // light Blue
+$color-2: #013d1f; // Dark green
+$color-3: #000000; // black
+$color-4: #808080; // gray
+$color-5: #ffffff; //white
+$color-6: #ff0000; //red
+
+// additional colors
+
+$success: #013d1f; // green
+$alert: $color-6; // red*/
+/* -------------------------------- 
+
+xBackground 
+
+-------------------------------- */
+body {
+  /* this is the page background */
+  background-color: #e1ebfe;
+}
+/* -------------------------------- 
+
+xPatterns
+
+-------------------------------- */
+.cd-box {
+  /* this is the container of various design elements - i.e. the 2 logo of the branding section */
+  border: 1px solid #808080;
+  border-radius: 3px;
+  background: #ffffff;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
+  padding: 6px;
+}
 /* -------------------------------- 
 
 xNavigation 
@@ -171,125 +204,6 @@ header {
   /* right arrow color */
   border-color: #e1ebfe;
 }
-/*$color-1: #e1ebfe; // light Blue
-$color-2: #013d1f; // Dark green
-$color-3: #000000; // black
-$color-4: #808080; // gray
-$color-5: #ffffff; //white
-$color-6: #ff0000; //red
-
-// additional colors
-
-$success: #013d1f; // green
-$alert: $color-6; // red*/
-/* -------------------------------- 
-
-xBackground 
-
--------------------------------- */
-body {
-  /* this is the page background */
-  background-color: #e1ebfe;
-}
-/* -------------------------------- 
-
-xPatterns
-
--------------------------------- */
-.cd-box {
-  /* this is the container of various design elements - i.e. the 2 logo of the branding section */
-  border: 1px solid #808080;
-  border-radius: 3px;
-  background: #ffffff;
-  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
-  padding: 6px;
-}
-/* -------------------------------- 
-
-xNavigation 
-
--------------------------------- */
-/*header {
-  background-color: $color-1;
-}
-
-.cd-logo {
-  /* logo box style */
-/*  background-color: $color-1;
-  width: 120px;
-
-  @include MQ(M) {
-    width: 180px;
-  }
-}
-
-.cd-main-nav {
-  /* main navigation background color - full screen on small devices */
-/* background: $color-1;
-
-  li a {
-    color: $color-2;
-    border-color: lighten($color-4, 5%);
-  }
-
-  @include MQ(M) {
-    li a {
-      color: lighten($color-2, 40%);
-
-      &.selected {
-        color: $color-5;
-        box-shadow: 0 2px 0 $color-5;
-      }
-
-      &:hover {
-        color: $color-5;
-      }
-    }
-  }
-}
-
-.cd-nav-trigger span {
-  /* hamburger menu */
-/*  background-color: $color-2;
-
-  &::before,
-  &::after {
-    /* upper and lower lines */
-/*    background-color: $color-2;
-  }
-}
-
-.nav-is-visible .cd-nav-trigger span {
-  /* hide line in the center on mobile when nav is visible */
-/*  background-color: rgba($color-5, 0);
-
-  &::before,
-  &::after {
-    /* preserve visibility of upper and lower lines - close icon */
-/*    background-color: rgba($color-5, 1);
-  }
-}
-
-.cd-download {
-  /* download button top-right visible on big devices */
-/*  background-color: $color-2;
-
-  .no-touch &:hover {
-    background-color: $color-5;
-
-  }
-
-  span {
-    /* tooltip */
-/*    background: $color-1;
-    color: $color-5;
-
-    &::before {
-      /* right arrow color */
-/*      border-color: $color-1;
-    }
-  }
-}*/
 /* -------------------------------- 
 
 xPage title 
@@ -309,58 +223,57 @@ main > h1 {
 xTypography 
 
 -------------------------------- */
-/*h1,
+h1,
 h2 {
-  font-family: $secondary-font;
-  color: $color-2;
+  font-family: "Mogra", display;
+  color: #013d1f;
 }
-
 h1 {
   font-size: 2.4rem;
   font-weight: 300;
   line-height: 1.2;
   margin: 0 0 0.4em;
-
-  @include MQ(S) {
+}
+@media only screen and (min-width: 768px) {
+  h1 {
     font-size: 3.2rem;
   }
-
-  @include MQ(M) {
+}
+@media only screen and (min-width: 1024px) {
+  h1 {
     font-size: 4rem;
   }
 }
-
 h2 {
   font-weight: bold;
   text-transform: uppercase;
   margin: 1em 0;
-
-  @include MQ(S) {
+}
+@media only screen and (min-width: 768px) {
+  h2 {
     font-size: 1.8rem;
     margin: 1em 0 1.4em;
   }
 }
-
 section > h2::before {
   /* number before each section title */
-/* color: darken($color-4, 15%);
+  color: #5a5a5a;
 }
-
 p {
   font-size: 1.4rem;
   line-height: 1.4;
-  color: $color-2;
-
-  a {
-    color: $color-2;
-    text-decoration: underline;
-  }
-
-  @include MQ(S) {
+  color: #013d1f;
+}
+p a {
+  color: #013d1f;
+  text-decoration: underline;
+}
+@media only screen and (min-width: 768px) {
+  p {
     font-size: 1.6rem;
     line-height: 1.6;
   }
-}*/
+}
 /* -------------------------------- 
 
 xButtons 
@@ -510,7 +423,7 @@ input[type=checkbox] {
 .radio-label::after,
 .checkbox-label::after {
   left: 3px;
-  background: url("icon-check.e36d4d8a.svg") no-repeat center center;
+  background: url("icon-check.HASH_REF_eaa9a69c6932f57b56c8b272e36d4d8a.svg") no-repeat center center;
   display: none;
 }
 .radio-label::before {
@@ -544,7 +457,7 @@ input[type=checkbox]:checked + label::after {
   display: block;
   width: 16px;
   height: 16px;
-  background: url("icon-select.f8d42744.svg") no-repeat center center;
+  background: url("icon-select.HASH_REF_20f9fa8fb38a4e19bd3ffae1f8d42744.svg") no-repeat center center;
   pointer-events: none;
 }
 select {
@@ -783,7 +696,7 @@ header nav {
   right: 0;
   height: 100%;
   width: 80px;
-  background-image: url("icon-download.43a1d2d2.svg");
+  background-image: url("icon-download.HASH_REF_fa416327c329231891c4d7ee43a1d2d2.svg");
   background-position: center center;
   background-repeat: no-repeat;
   display: none;
@@ -1113,28 +1026,28 @@ section:nth-of-type(10) h2::before {
   margin: 1em;
 }
 .cd-icons .cd-icon-1 {
-  background-image: url("icon-1.f09de9b2.svg");
+  background-image: url("icon-1.HASH_REF_fec29673c8fe8ef1165d0cf5f09de9b2.svg");
 }
 .cd-icons .cd-icon-2 {
-  background-image: url("icon-2.74505a7a.svg");
+  background-image: url("icon-2.HASH_REF_46b2e967e2ffb5b8c144191b74505a7a.svg");
 }
 .cd-icons .cd-icon-3 {
-  background-image: url("icon-3.bcc4af98.svg");
+  background-image: url("icon-3.HASH_REF_79cc3db33e724e44630849bfbcc4af98.svg");
 }
 .cd-icons .cd-icon-4 {
-  background-image: url("icon-4.222e6830.svg");
+  background-image: url("icon-4.HASH_REF_2f6b2afed0927ba6ffdc3486222e6830.svg");
 }
 .cd-icons .cd-icon-5 {
-  background-image: url("icon-5.dd0f77d5.svg");
+  background-image: url("icon-5.HASH_REF_af144f7915db1742a2110270dd0f77d5.svg");
 }
 .cd-icons .cd-icon-6 {
-  background-image: url("icon-6.259c8c0a.svg");
+  background-image: url("icon-6.HASH_REF_dbbebf3ac36212806f6a6fa9259c8c0a.svg");
 }
 .cd-icons .cd-icon-7 {
-  background-image: url("icon-7.efa0e026.svg");
+  background-image: url("icon-7.HASH_REF_ce193e7b236563259d7e4395efa0e026.svg");
 }
 .cd-icons .cd-icon-8 {
-  background-image: url("icon-8.ef29f1a8.svg");
+  background-image: url("icon-8.HASH_REF_c2d5152879248434072ac495ef29f1a8.svg");
 }
 /* xForm section - basic style */
 .cd-form input[type=text],
@@ -1212,4 +1125,4 @@ xButtons
   /* CSS class name color */
   color: #013d1f;
 }
-/*# sourceMappingURL=index.fd58574d.css.map */
+/*# sourceMappingURL=index.HASH_REF_0d8524a15cd50b7f068fb1cefd58574d.css.map */

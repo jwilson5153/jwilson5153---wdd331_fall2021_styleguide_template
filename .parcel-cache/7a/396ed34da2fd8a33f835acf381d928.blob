@@ -2,22 +2,21 @@
 <html lang="en" class="no-js">
 
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <link href="https://fonts.googleapis.com/css2?family=Mogra&family=Poppins:wght@700&display=swap" rel="stylesheet"
-    type="text/css" />
+  <link href="https://fonts.googleapis.com/css2?family=Mogra&family=Poppins:wght@700&display=swap" rel="stylesheet" type="text/css">
 
-  <link rel="stylesheet" href="scss/style-guide.scss" />
+  <link rel="stylesheet" href="/index.HASH_REF_0d8524a15cd50b7f068fb1cefd58574d.css">
   <!-- Resource style -->
-  <script src="js/modernizr.js"></script>
+  <script src="/index.HASH_REF_d1d6d1f9d6c205aa98cd1216aaafe13f.js"></script>
   <!-- Modernizr -->
   <title>Style Guide | WDD 331 Group 14</title>
 </head>
 
 <body>
   <header>
-    <div class="cd-logo"><img src="assets/logo.png" alt="Logo" /></div>
+    <div class="cd-logo"><img src="/logo.HASH_REF_e223616fdb911d297d0a968dbbec8923.png" alt="Logo"></div>
 
     <nav>
       <ul class="cd-main-nav">
@@ -32,7 +31,7 @@
       <!-- cd-main-nav -->
     </nav>
 
-    <a href="assets/assets-download-file.zip" class="cd-download"><span>Download assets</span></a>
+    <a href="/assets/assets-download-file.zip" class="cd-download"><span>Download assets</span></a>
     <a href="#0" class="cd-nav-trigger">Menu<span></span></a>
   </header>
 
@@ -52,7 +51,7 @@
 
       <ul>
         <li class="cd-box">
-          <img src="assets/logo.png" alt="Logo version 1" />
+          <img src="/logo.HASH_REF_e223616fdb911d297d0a968dbbec8923.png" alt="Logo version 1">
         </li>
         <!--<li class="cd-box">
             <img src="assets/branding/logo-ver-2.jpg" alt="Logo version 2" />
@@ -124,7 +123,7 @@
       </div>
     </section>
 
-    <!--<section id="icons" class="cd-icons">
+    <section id="icons" class="cd-icons">
       <h2>Icons</h2>
 
       <ul class="cd-box">
@@ -145,18 +144,18 @@
       <div class="cd-box">
         <form>
           <fieldset>
-            <input type="text" /> <input class="success" type="text" />
-            <input class="alert" type="text" />
+            <input type="text"> <input class="success" type="text">
+            <input class="alert" type="text">
           </fieldset>
 
           <fieldset>
             <div class="cd-input-wrapper">
-              <input type="radio" name="radioButton" id="radio1" />
+              <input type="radio" name="radioButton" id="radio1">
               <label class="radio-label" for="radio1">Choice 1</label>
             </div>
 
             <div class="cd-input-wrapper">
-              <input type="checkbox" id="checkbox1" />
+              <input type="checkbox" id="checkbox1">
               <label class="checkbox-label" for="checkbox1">Option 1</label>
             </div>
 
@@ -171,7 +170,7 @@
           </fieldset>
         </form>
       </div>
-    </section>-->
+    </section>
     <section id="navigation" class="cd-navigation">
       <h2>Navigation</h2>
       <div class="cd-box">
@@ -226,18 +225,18 @@
       <h2>Wireframes</h2>
       <div class="cd-box">
         <figure>
-          <img src="assets/wireframe_sm.png" alt="Small screen wireframe" />
+          <img src="/wireframe_sm.HASH_REF_b0473e0f9b1591a0b960dcf712f3411a.png" alt="Small screen wireframe">
           <figcaption>Small screen</figcaption>
         </figure>
         <figure>
-          <img src="assets/wireframe_lg.png" alt="Large screen wireframe" />
+          <img src="/wireframe_lg.HASH_REF_dd14c7d20dedf42e75956fb040767078.png" alt="Large screen wireframe">
           <figcaption>Large screen</figcaption>
         </figure>
       </div>
     </section>
   </main>
 
-  <script src="js/main.js"></script>
+  <script src="/index.HASH_REF_9c44180a18ad66eda0f30d699626f0bb.js"></script>
 </body>
 
 </html>

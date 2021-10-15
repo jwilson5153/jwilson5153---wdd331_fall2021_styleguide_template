@@ -1,10 +1,13 @@
 @import 'partials/reset';
 @import 'partials/prefix-mixins';
 @import 'partials/layout'; // responsive grid and media queries
+@import 'partials/color-palette';
+@import 'partials/typography';
+@import 'partials/navigation';
 
 // color palette - these colors will be the color swatches of the Colors section
 
-$color-1: #e1ebfe; // light Blue
+/*$color-1: #e1ebfe; // light Blue
 $color-2: #013d1f; // Dark green
 $color-3: #000000; // black
 $color-4: #808080; // gray
@@ -14,11 +17,11 @@ $color-6: #ff0000; //red
 // additional colors
 
 $success: #013d1f; // green
-$alert: $color-6; // red
+$alert: $color-6; // red*/
 
 // fonts
-$primary-font: 'Poppins', sans-serif;
-$secondary-font: 'Mogra', display;
+//$primary-font: 'Poppins', sans-serif;
+//$secondary-font: 'Mogra', display;
 
 /* -------------------------------- 
 
@@ -52,13 +55,13 @@ xNavigation
 
 -------------------------------- */
 
-header {
+/*header {
   background-color: $color-1;
 }
 
 .cd-logo {
   /* logo box style */
-  background-color: $color-1;
+/*  background-color: $color-1;
   width: 120px;
 
   @include MQ(M) {
@@ -68,7 +71,7 @@ header {
 
 .cd-main-nav {
   /* main navigation background color - full screen on small devices */
-  background: $color-1;
+ /* background: $color-1;
 
   li a {
     color: $color-2;
@@ -93,29 +96,29 @@ header {
 
 .cd-nav-trigger span {
   /* hamburger menu */
-  background-color: $color-2;
+/*  background-color: $color-2;
 
   &::before,
   &::after {
     /* upper and lower lines */
-    background-color: $color-2;
+/*    background-color: $color-2;
   }
 }
 
 .nav-is-visible .cd-nav-trigger span {
   /* hide line in the center on mobile when nav is visible */
-  background-color: rgba($color-5, 0);
+/*  background-color: rgba($color-5, 0);
 
   &::before,
   &::after {
     /* preserve visibility of upper and lower lines - close icon */
-    background-color: rgba($color-5, 1);
+/*    background-color: rgba($color-5, 1);
   }
 }
 
 .cd-download {
   /* download button top-right visible on big devices */
-  background-color: $color-2;
+/*  background-color: $color-2;
 
   .no-touch &:hover {
     background-color: $color-5;
@@ -124,15 +127,15 @@ header {
 
   span {
     /* tooltip */
-    background: $color-1;
+/*    background: $color-1;
     color: $color-5;
 
     &::before {
       /* right arrow color */
-      border-color: $color-1;
+/*      border-color: $color-1;
     }
   }
-}
+}*/
 
 /* -------------------------------- 
 
@@ -155,7 +158,7 @@ xTypography
 
 -------------------------------- */
 
-h1,
+/*h1,
 h2 {
   font-family: $secondary-font;
   color: $color-2;
@@ -189,7 +192,7 @@ h2 {
 
 section > h2::before {
   /* number before each section title */
-  color: darken($color-4, 15%);
+ /* color: darken($color-4, 15%);
 }
 
 p {
@@ -206,7 +209,7 @@ p {
     font-size: 1.6rem;
     line-height: 1.6;
   }
-}
+}*/
 
 /* -------------------------------- 
 
@@ -214,7 +217,7 @@ xButtons
 
 -------------------------------- */
 
-.btn {
+/*.btn {
   border: $color-5;
   box-shadow: 0;
   border-radius: 0.25em;
@@ -272,9 +275,9 @@ xButtons
 
 .cd-buttons .cd-box:nth-of-type(2) span {
   /* CSS class name color */
-  color: $color-2;
+  /*color: $color-2;
 }
-
+*/
 /* -------------------------------- 
 
 xIcons 
@@ -407,3 +410,5 @@ select {
 }
 
 @import 'partials/basic-style';
+
+@import 'partials/buttons';
